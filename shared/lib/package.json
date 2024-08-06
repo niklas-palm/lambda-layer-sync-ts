@@ -1,0 +1,16 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "shared helpers for statements service",
+  "main": "utils.js",
+  "scripts": {
+    "unit": "jest",
+    "lint": "eslint '*.ts' --quiet --fix",
+    "lint:ci": "npm install && eslint '*.ts' --quiet",
+    "compile": "tsc",
+    "test": "npm install && npm run compile && npm run unit"
+  },
+  "author": "Niklas Palm",
+  "license": "ISC",
+  "dependencies": {}
+}
